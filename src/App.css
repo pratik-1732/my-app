@@ -6,15 +6,15 @@
 
 button {
   background: none;
-  border: 2px solid white;
+  border: 2px solid #00215e;
   padding: 6px 12px;
-  border-radius: 4px;
-  color: white;
+  border-radius: 6px;
+  color: #00215e;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 button:hover {
-  background: red;
-  color: white;
+  background: #c65bcf;
+  color: #322c2b;
 }
