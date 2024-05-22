@@ -25,6 +25,8 @@ function App() {
     const shuffleCards = [...cardImg, ...cardImg]
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }));
+    setChoiceOne(null);
+    setChoiceTwo(null);
     setCards(shuffleCards);
     setTurns(0);
   };
@@ -61,6 +63,11 @@ function App() {
     setDisabled(false);
   };
 
+  // start new game automatically
+  useEffect(() => {
+    cardsShuffle();
+  }, []);
+
   return (
     <div className="App">
       <h1>Mind Game</h1>
@@ -77,6 +84,7 @@ function App() {
           />
         ))}
       </div>
+      <p>Turns: {turns}</p>
     </div>
   );
 }
