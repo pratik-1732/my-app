@@ -14,7 +14,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
           className="front"
           src={card.src}
           alt="card front"
-          style={{ height: "12rem", width: "12rem" }}
+          style={{ height: "10rem", width: "10rem" }}
         />
 
         <img

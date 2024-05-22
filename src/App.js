@@ -3,13 +3,13 @@ import "./App.css";
 import SingleCard from "./components/SingleCard";
 
 const cardImg = [
-  { src: "/images/Arya Stark.png", matched: false },
-  { src: "/images/Daenerys Targaryen.png", matched: false },
+  { src: "/images/stark sisters.png", matched: false },
+  { src: "/images/danny.png", matched: false },
   // { src: "/images/Jaime.jpg", matched: false },
-  { src: "/images/Jon Snow.png", matched: false },
-  { src: "/images/Missandei.png", matched: false },
-  { src: "/images/Night King.png", matched: false },
-  { src: "/images/Tyrion.png", matched: false },
+  { src: "/images/jon.png", matched: false },
+  { src: "/images/misandei.png", matched: false },
+  { src: "/images/Night kings.png", matched: false },
+  { src: "/images/imp.png", matched: false },
   // { src: "/images/Cersei Lannister.jpg", matched: false },
 ];
 
