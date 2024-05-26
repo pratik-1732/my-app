@@ -2,8 +2,12 @@
   max-width: 860px;
   margin: 10px auto;
   text-align: center;
+  height: 100vh;
 }
-
+.App h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+}
 button {
   background: none;
   border: 2px solid white;
@@ -23,5 +27,5 @@ button:hover {
   margin-top: 2.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 7px;
+  grid-gap: 20px;
 }
