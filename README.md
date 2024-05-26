@@ -1,7 +1,3 @@
-Sure, here's a template for the README file of your Game of Thrones themed memory game:
-
----
-
 # Game of Thrones Memory Game
 
 Welcome to the Game of Thrones Memory Game! This is a classic memory matching game featuring your favorite characters from the Game of Thrones series. The objective is to match all pairs of cards with the minimum number of turns.
