@@ -1,8 +1,15 @@
 .App {
   max-width: 860px;
-  margin: 10px auto;
+  margin: 10px auto 0px;
   text-align: center;
-  height: 100vh;
+  /* height: 100vh; */
+}
+.name-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4rem;
+  margin: 3rem;
 }
 .App h1 {
   font-family: "Poetsen One", sans-serif;
