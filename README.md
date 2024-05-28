@@ -22,8 +22,8 @@ Welcome to the Game of Thrones Memory Game! This is a classic memory matching ga
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Initial View](/Project%20SS/initial.png)
+![Final View](/Project%20SS/final.png)
 
 ## Installation
 
