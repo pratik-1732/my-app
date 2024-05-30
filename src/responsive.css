@@ -10,9 +10,9 @@
   .App {
     margin: 0px 15px;
   }
-  .name-btn {
+  /* .name-btn {
     height: 3rem;
-  }
+  } */
 
   .name-btn h1 {
     font-size: 1.5rem;
@@ -43,8 +43,8 @@
 @media (max-width: 480px) {
   .name-btn {
     align-items: center;
-    height: 1.5rem;
-    width: 100%;
+    /* height: 1.5rem; */
+    /* width: 100%; */
   }
 
   .name-btn h1 {
@@ -52,7 +52,7 @@
   }
 
   .name-btn button {
-    width: 30%;
+    /* width: 30%; */
     font-size: 0.875rem;
   }
 

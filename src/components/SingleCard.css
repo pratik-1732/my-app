@@ -12,12 +12,16 @@
   width: "10rem"; */
 }
 .front {
-  height: 10rem;
-  width: 10rem;
+  /* height: 10rem;
+  width: 10rem; */
+  width: 70%;
+  height: auto;
 }
 .back {
-  height: 10rem;
-  width: 10rem;
+  /* height: 10rem;
+  width: 10rem; */
+  width: 70%;
+  height: auto;
 }
 
 /* front card  */

@@ -4,12 +4,18 @@
   text-align: center;
   /* height: 100vh; */
 }
+.content {
+  display: flex;
+  flex-direction: column;
+}
 .name-btn {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  height: 4rem;
+  /* height: 4rem; */
   margin: 3rem;
+  width: 70%;
+  margin: auto;
 }
 .App h1 {
   font-family: "Poetsen One", sans-serif;
