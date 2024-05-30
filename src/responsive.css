@@ -1,0 +1,62 @@
+/* Media queries */
+
+@media (max-width: 900px) {
+  .App {
+    margin: 0px 20px;
+  }
+}
+/* Tablet view */
+@media (max-width: 768px) {
+  .App {
+    margin: 0px 15px;
+  }
+  .name-btn {
+    height: 3rem;
+  }
+
+  .name-btn h1 {
+    font-size: 1.5rem;
+  }
+
+  .name-btn button {
+    font-size: 1rem;
+  }
+
+  .name-btn p {
+    font-size: 0.875rem;
+  }
+
+  .card-grid {
+    padding-left: 15px;
+  }
+  /* .front {
+    height: 5rem;
+    width: 5rem;
+  }
+  .back {
+    height: 5rem;
+    width: 5rem;
+  } */
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .name-btn {
+    align-items: center;
+    height: 1.5rem;
+    width: 100%;
+  }
+
+  .name-btn h1 {
+    font-size: 1rem;
+  }
+
+  .name-btn button {
+    width: 30%;
+    font-size: 0.875rem;
+  }
+
+  .name-btn p {
+    font-size: 0.75rem;
+  }
+}

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import "./responsive.css";
 import SingleCard from "./components/SingleCard";
 
 const cardImg = [

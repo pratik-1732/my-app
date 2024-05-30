@@ -14,7 +14,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
           className="front"
           src={card.src}
           alt="card front"
-          style={{ height: "10rem", width: "10rem" }}
+          // style={{ height: "10rem", width: "10rem" }}
         />
 
         <img
@@ -22,7 +22,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
           src="/images/cover img.png"
           alt="card back"
           onClick={handleClick}
-          style={{ height: "10rem", width: "10rem" }}
+          // style={{ height: "10rem", width: "10rem" }}
         />
       </div>
     </div>

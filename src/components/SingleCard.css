@@ -3,11 +3,21 @@
 }
 
 .card img {
-  width: "100%";
+  /* width: "100%"; */
   display: block;
   border: 2px solid white;
   border-radius: 7px;
   object-fit: fill;
+  /* height: "10rem";
+  width: "10rem"; */
+}
+.front {
+  height: 10rem;
+  width: 10rem;
+}
+.back {
+  height: 10rem;
+  width: 10rem;
 }
 
 /* front card  */
